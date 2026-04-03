@@ -1,0 +1,891 @@
+256:
+{
+naive:
+Elapsed Time:	0.009s
+    CPU Time:	0.008s
+    CPI Rate:	3.957
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	1	0	False
+    CPU_CLK_UNHALTED.REF_TSC	22,000,033	11	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	92,600	1	0	False
+    CPU_CLK_UNHALTED.THREAD	39,569,831	11	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	2,955	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	0	0	False
+    INST_RETIRED.ANY	10,000,015	5	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	5,951,895	3	0	False
+    MEM_LOAD_RETIRED.L1_MISS	275,410	3	0	False
+    MEM_LOAD_RETIRED.L2_HIT	111,010	3	0	False
+    MEM_LOAD_RETIRED.L2_MISS	164,565	3	0	False
+    MEM_LOAD_RETIRED.L3_HIT	82,135	3	0	False
+    MEM_LOAD_RETIRED.L3_MISS	39,170	4	0	False
+    UOPS_EXECUTED.THREAD	35,685,830	3	0	False
+    UOPS_EXECUTED.X87	6,625	3	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	10,000,015	1	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\naive.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.3 MB 
+    Collection start time:	10:54:40 03/04/2026 UTC
+    Collection stop time:	10:54:40 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt1:
+Elapsed Time:	0.007s
+    CPU Time:	0.005s
+    CPI Rate:	1.770
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	0	0	False
+    CPU_CLK_UNHALTED.REF_TSC	14,000,021	7	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	0	0	0	False
+    CPU_CLK_UNHALTED.THREAD	24,774,829	7	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	0	0	False
+    INST_RETIRED.ANY	14,000,021	7	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	1,898,330	1	0	False
+    MEM_LOAD_RETIRED.L1_MISS	473,795	5	0	False
+    MEM_LOAD_RETIRED.L2_HIT	222,930	5	0	False
+    MEM_LOAD_RETIRED.L2_MISS	252,000	5	0	False
+    MEM_LOAD_RETIRED.L3_HIT	138,030	5	0	False
+    MEM_LOAD_RETIRED.L3_MISS	9,170	1	0	False
+    UOPS_EXECUTED.THREAD	10,579,430	1	0	False
+    UOPS_EXECUTED.X87	3,055	1	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	10,000,015	1	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt1.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.2 MB 
+    Collection start time:	10:58:33 03/04/2026 UTC
+    Collection stop time:	10:58:33 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt2:
+Elapsed Time:	0.006s
+    CPU Time:	0.006s
+    CPI Rate:	1.418
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	59,550	1	0	False
+    CPU_CLK_UNHALTED.REF_TSC	16,000,024	8	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	92,580	1	0	False
+    CPU_CLK_UNHALTED.THREAD	28,363,406	8	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	235	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	1,225	1	0	False
+    INST_RETIRED.ANY	20,000,030	10	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L1_MISS	528,435	5	0	False
+    MEM_LOAD_RETIRED.L2_HIT	254,480	5	0	False
+    MEM_LOAD_RETIRED.L2_MISS	274,895	5	0	False
+    MEM_LOAD_RETIRED.L3_HIT	202,990	5	0	False
+    MEM_LOAD_RETIRED.L3_MISS	12,010	1	0	False
+    UOPS_EXECUTED.THREAD	0	0	0	False
+    UOPS_EXECUTED.X87	0	0	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	10,000,015	1	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt2.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.2 MB 
+    Collection start time:	10:59:53 03/04/2026 UTC
+    Collection stop time:	10:59:53 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt3:
+Elapsed Time:	0.008s
+    CPU Time:	0.005s
+    CPI Rate:	1.771
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	1	0	False
+    CPU_CLK_UNHALTED.REF_TSC	14,000,021	7	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	92,605	1	0	False
+    CPU_CLK_UNHALTED.THREAD	24,788,729	7	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	470	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	1	0	False
+    INST_RETIRED.ANY	14,000,021	7	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L1_MISS	157,090	2	0	False
+    MEM_LOAD_RETIRED.L2_HIT	44,575	2	0	False
+    MEM_LOAD_RETIRED.L2_MISS	112,675	2	0	False
+    MEM_LOAD_RETIRED.L3_HIT	30,355	2	0	False
+    MEM_LOAD_RETIRED.L3_MISS	49,505	3	0	False
+    UOPS_EXECUTED.THREAD	0	0	0	False
+    UOPS_EXECUTED.X87	0	0	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	0	0	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt3.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.2 MB 
+    Collection start time:	11:00:52 03/04/2026 UTC
+    Collection stop time:	11:00:52 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt4:
+Elapsed Time:	0.007s
+    CPU Time:	0.005s
+    CPI Rate:	1.737
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	5,095	2	0	False
+    CPU_CLK_UNHALTED.REF_TSC	14,000,021	7	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	185,180	2	0	False
+    CPU_CLK_UNHALTED.THREAD	24,319,116	7	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	10	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	110	2	0	False
+    INST_RETIRED.ANY	14,000,021	7	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	4,768,065	2	0	False
+    MEM_LOAD_RETIRED.L1_MISS	64,350	1	0	False
+    MEM_LOAD_RETIRED.L2_HIT	1,975	1	0	False
+    MEM_LOAD_RETIRED.L2_MISS	62,390	1	0	False
+    MEM_LOAD_RETIRED.L3_HIT	1,945	1	0	False
+    MEM_LOAD_RETIRED.L3_MISS	0	0	0	False
+    UOPS_EXECUTED.THREAD	27,415,145	2	0	False
+    UOPS_EXECUTED.X87	4,050	2	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	20,000,030	2	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt4.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.2 MB 
+    Collection start time:	11:01:40 03/04/2026 UTC
+    Collection stop time:	11:01:40 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+}
+512:
+{
+naive:
+Elapsed Time:	0.008s
+    CPU Time:	0.006s
+    CPI Rate:	1.507
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	0	0	False
+    CPU_CLK_UNHALTED.REF_TSC	16,000,024	8	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	0	0	0	False
+    CPU_CLK_UNHALTED.THREAD	27,125,554	8	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	20	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	1	0	False
+    INST_RETIRED.ANY	18,000,027	9	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L1_MISS	111,905	1	0	False
+    MEM_LOAD_RETIRED.L2_HIT	62,035	1	0	False
+    MEM_LOAD_RETIRED.L2_MISS	50,090	1	0	False
+    MEM_LOAD_RETIRED.L3_HIT	38,665	1	0	False
+    MEM_LOAD_RETIRED.L3_MISS	80,485	6	0	False
+    UOPS_EXECUTED.THREAD	0	0	0	False
+    UOPS_EXECUTED.X87	0	0	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	10,000,015	1	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\naive.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.5 MB 
+    Collection start time:	11:03:44 03/04/2026 UTC
+    Collection stop time:	11:03:44 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt1:
+Elapsed Time:	0.007s
+    CPU Time:	0.008s
+    CPI Rate:	1.923
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	2	0	False
+    CPU_CLK_UNHALTED.REF_TSC	20,000,030	10	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	185,185	2	0	False
+    CPU_CLK_UNHALTED.THREAD	34,606,063	10	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	2	0	False
+    INST_RETIRED.ANY	18,000,027	9	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	1,472,590	1	0	False
+    MEM_LOAD_RETIRED.L1_MISS	657,180	5	0	False
+    MEM_LOAD_RETIRED.L2_HIT	293,540	5	0	False
+    MEM_LOAD_RETIRED.L2_MISS	364,115	5	0	False
+    MEM_LOAD_RETIRED.L3_HIT	257,595	5	0	False
+    MEM_LOAD_RETIRED.L3_MISS	0	0	0	False
+    UOPS_EXECUTED.THREAD	9,202,635	1	0	False
+    UOPS_EXECUTED.X87	3,080	1	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	0	0	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt1.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.6 MB 
+    Collection start time:	11:05:20 03/04/2026 UTC
+    Collection stop time:	11:05:20 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+
+opt2:
+Elapsed Time:	0.009s
+    CPU Time:	0.008s
+    CPI Rate:	2.174
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	760	1	0	False
+    CPU_CLK_UNHALTED.REF_TSC	20,000,030	10	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	92,590	1	0	False
+    CPU_CLK_UNHALTED.THREAD	34,777,215	10	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	175	2	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	10	2	0	False
+    INST_RETIRED.ANY	16,000,024	8	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	1,351,015	1	0	False
+    MEM_LOAD_RETIRED.L1_MISS	415,820	4	0	False
+    MEM_LOAD_RETIRED.L2_HIT	237,810	4	0	False
+    MEM_LOAD_RETIRED.L2_MISS	178,770	4	0	False
+    MEM_LOAD_RETIRED.L3_HIT	127,925	4	0	False
+    MEM_LOAD_RETIRED.L3_MISS	42,820	2	0	False
+    UOPS_EXECUTED.THREAD	8,293,070	1	0	False
+    UOPS_EXECUTED.X87	1,155	1	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	0	0	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt2.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.4 MB 
+    Collection start time:	11:04:46 03/04/2026 UTC
+    Collection stop time:	11:04:46 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt3:
+Elapsed Time:	0.008s
+    CPU Time:	0.008s
+    CPI Rate:	2.117
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	325	3	0	False
+    CPU_CLK_UNHALTED.REF_TSC	20,000,030	10	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	277,780	3	0	False
+    CPU_CLK_UNHALTED.THREAD	33,870,250	10	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	5	0	False
+    INST_RETIRED.ANY	16,000,024	8	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L1_MISS	0	0	0	False
+    MEM_LOAD_RETIRED.L2_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L2_MISS	0	0	0	False
+    MEM_LOAD_RETIRED.L3_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L3_MISS	23,615	2	0	False
+    UOPS_EXECUTED.THREAD	0	0	0	False
+    UOPS_EXECUTED.X87	0	0	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	20,000,030	2	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt3.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.6 MB 
+    Collection start time:	11:05:47 03/04/2026 UTC
+    Collection stop time:	11:05:47 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt4:
+Elapsed Time:	0.008s
+    CPU Time:	0.006s
+    CPI Rate:	1.506
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	0	0	False
+    CPU_CLK_UNHALTED.REF_TSC	16,000,024	8	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	0	0	0	False
+    CPU_CLK_UNHALTED.THREAD	27,116,275	8	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	1,590	3	0	False
+    INST_RETIRED.ANY	18,000,027	9	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	8,871,535	3	0	False
+    MEM_LOAD_RETIRED.L1_MISS	173,790	2	0	False
+    MEM_LOAD_RETIRED.L2_HIT	82,040	2	0	False
+    MEM_LOAD_RETIRED.L2_MISS	92,210	2	0	False
+    MEM_LOAD_RETIRED.L3_HIT	63,205	2	0	False
+    MEM_LOAD_RETIRED.L3_MISS	0	0	0	False
+    UOPS_EXECUTED.THREAD	55,905,310	3	0	False
+    UOPS_EXECUTED.X87	7,220	3	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	40,000,060	4	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt4.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.7 MB 
+    Collection start time:	11:06:22 03/04/2026 UTC
+    Collection stop time:	11:06:22 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+}
+1024:
+{
+naive:
+Elapsed Time:	0.010s
+    CPU Time:	0.009s
+    CPI Rate:	1.279
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	0	0	False
+    CPU_CLK_UNHALTED.REF_TSC	24,000,036	12	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	0	0	0	False
+    CPU_CLK_UNHALTED.THREAD	40,927,167	12	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	10	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	3	0	False
+    INST_RETIRED.ANY	32,000,048	16	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	15,850,350	5	0	False
+    MEM_LOAD_RETIRED.L1_MISS	219,095	3	0	False
+    MEM_LOAD_RETIRED.L2_HIT	97,865	3	0	False
+    MEM_LOAD_RETIRED.L2_MISS	121,495	3	0	False
+    MEM_LOAD_RETIRED.L3_HIT	66,620	3	0	False
+    MEM_LOAD_RETIRED.L3_MISS	10,685	1	0	False
+    UOPS_EXECUTED.THREAD	99,273,290	5	0	False
+    UOPS_EXECUTED.X87	16,370	5	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	90,000,135	9	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\naive.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.9 MB 
+    Collection start time:	11:08:11 03/04/2026 UTC
+    Collection stop time:	11:08:11 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt1:
+Elapsed Time:	0.011s
+    CPU Time:	0.008s
+    CPI Rate:	1.102
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	155,225	3	0	False
+    CPU_CLK_UNHALTED.REF_TSC	22,000,033	11	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	277,830	3	0	False
+    CPU_CLK_UNHALTED.THREAD	37,464,446	11	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	10	3	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	5	0	False
+    INST_RETIRED.ANY	34,000,051	17	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	2,619,130	1	0	False
+    MEM_LOAD_RETIRED.L1_MISS	193,790	2	0	False
+    MEM_LOAD_RETIRED.L2_HIT	99,540	2	0	False
+    MEM_LOAD_RETIRED.L2_MISS	94,510	2	0	False
+    MEM_LOAD_RETIRED.L3_HIT	72,585	2	0	False
+    MEM_LOAD_RETIRED.L3_MISS	0	0	0	False
+    UOPS_EXECUTED.THREAD	14,362,780	1	0	False
+    UOPS_EXECUTED.X87	4,585	1	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	20,000,030	2	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt1.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.9 MB 
+    Collection start time:	11:09:13 03/04/2026 UTC
+    Collection stop time:	11:09:13 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt2:
+Elapsed Time:	0.010s
+    CPU Time:	0.008s
+    CPI Rate:	1.243
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	1	0	False
+    CPU_CLK_UNHALTED.REF_TSC	22,000,033	11	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	92,580	1	0	False
+    CPU_CLK_UNHALTED.THREAD	37,276,942	11	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	10	3	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	3	0	False
+    INST_RETIRED.ANY	30,000,045	15	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	22,601,525	6	0	False
+    MEM_LOAD_RETIRED.L1_MISS	105,595	1	0	False
+    MEM_LOAD_RETIRED.L2_HIT	57,505	1	0	False
+    MEM_LOAD_RETIRED.L2_MISS	48,250	1	0	False
+    MEM_LOAD_RETIRED.L3_HIT	36,330	1	0	False
+    MEM_LOAD_RETIRED.L3_MISS	0	0	0	False
+    UOPS_EXECUTED.THREAD	114,609,140	6	0	False
+    UOPS_EXECUTED.X87	18,505	6	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	90,000,135	9	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt2.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.8 MB 
+    Collection start time:	11:09:47 03/04/2026 UTC
+    Collection stop time:	11:09:47 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt3:
+Elapsed Time:	0.009s
+    CPU Time:	0.010s
+    CPI Rate:	1.439
+    Total Thread Count:	2
+    Paused Time:	0s
+    Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	24,735	4	0	False
+    CPU_CLK_UNHALTED.REF_TSC	26,000,039	13	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	370,375	4	0	False
+    CPU_CLK_UNHALTED.THREAD	46,062,544	13	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	4	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	4	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	15	1	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	1,190	1	0	False
+    INST_RETIRED.ANY	32,000,048	16	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	3,932,625	2	0	False
+    MEM_LOAD_RETIRED.L1_MISS	117,350	1	0	False
+    MEM_LOAD_RETIRED.L2_HIT	61,340	1	0	False
+    MEM_LOAD_RETIRED.L2_MISS	56,050	1	0	False
+    MEM_LOAD_RETIRED.L3_HIT	30,095	1	0	False
+    MEM_LOAD_RETIRED.L3_MISS	58,200	5	0	False
+    UOPS_EXECUTED.THREAD	21,266,500	2	0	False
+    UOPS_EXECUTED.X87	5,495	2	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	10,000,015	1	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt3.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.5 MB 
+    Collection start time:	11:10:18 03/04/2026 UTC
+    Collection stop time:	11:10:18 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt4:
+Elapsed Time:	0.010s
+    CPU Time:	0.008s
+    CPI Rate:	1.268
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	0	5	0	False
+    CPU_CLK_UNHALTED.REF_TSC	22,000,033	11	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	462,990	5	0	False
+    CPU_CLK_UNHALTED.THREAD	38,052,768	11	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	5	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	0	0	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	0	0	False
+    INST_RETIRED.ANY	30,000,045	15	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	0	0	0	False
+    MEM_LOAD_RETIRED.L1_MISS	254,385	3	0	False
+    MEM_LOAD_RETIRED.L2_HIT	132,430	3	0	False
+    MEM_LOAD_RETIRED.L2_MISS	122,245	3	0	False
+    MEM_LOAD_RETIRED.L3_HIT	81,975	3	0	False
+    MEM_LOAD_RETIRED.L3_MISS	76,285	3	0	False
+    UOPS_EXECUTED.THREAD	0	0	0	False
+    UOPS_EXECUTED.X87	0	0	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	0	0	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt4.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.4 MB 
+    Collection start time:	11:11:11 03/04/2026 UTC
+    Collection stop time:	11:11:11 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+}
+4096:
+naive:
+Elapsed Time:	0.052s
+    CPU Time:	0.049s
+    CPI Rate:	0.689
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	831,640	11	0	False
+    CPU_CLK_UNHALTED.REF_TSC	126,000,189	63	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	1,018,520	11	0	False
+    CPU_CLK_UNHALTED.THREAD	221,861,264	63	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	11	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	11	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	10	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	10	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	10	10	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	0	10	0	False
+    INST_RETIRED.ANY	322,000,483	161	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	101,208,855	15	0	False
+    MEM_LOAD_RETIRED.L1_MISS	1,637,740	13	0	False
+    MEM_LOAD_RETIRED.L2_HIT	1,236,715	13	0	False
+    MEM_LOAD_RETIRED.L2_MISS	402,490	13	0	False
+    MEM_LOAD_RETIRED.L3_HIT	193,020	13	0	False
+    MEM_LOAD_RETIRED.L3_MISS	98,505	14	0	False
+    UOPS_EXECUTED.THREAD	474,858,840	15	0	False
+    UOPS_EXECUTED.X87	95,425	15	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	380,000,570	38	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\naive.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.6 MB 
+    Collection start time:	11:13:15 03/04/2026 UTC
+    Collection stop time:	11:13:15 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt1:
+Elapsed Time:	0.057s
+    CPU Time:	0.048s
+    CPI Rate:	0.717
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	304,005	6	0	False
+    CPU_CLK_UNHALTED.REF_TSC	124,000,186	62	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	555,595	6	0	False
+    CPU_CLK_UNHALTED.THREAD	217,933,119	62	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	10	6	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	6	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	21	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	21	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	115	21	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	20	21	0	False
+    INST_RETIRED.ANY	304,000,456	152	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	81,548,950	16	0	False
+    MEM_LOAD_RETIRED.L1_MISS	1,504,555	12	0	False
+    MEM_LOAD_RETIRED.L2_HIT	1,146,945	12	0	False
+    MEM_LOAD_RETIRED.L2_MISS	358,990	12	0	False
+    MEM_LOAD_RETIRED.L3_HIT	232,285	12	0	False
+    MEM_LOAD_RETIRED.L3_MISS	111,095	7	0	False
+    UOPS_EXECUTED.THREAD	494,661,025	16	0	False
+    UOPS_EXECUTED.X87	73,885	16	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	480,000,720	48	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt1.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.6 MB 
+    Collection start time:	11:13:51 03/04/2026 UTC
+    Collection stop time:	11:13:51 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt2:
+Elapsed Time:	0.069s
+    CPU Time:	0.066s
+    CPI Rate:	0.917
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	240,710	17	0	False
+    CPU_CLK_UNHALTED.REF_TSC	170,000,255	85	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	1,574,050	17	0	False
+    CPU_CLK_UNHALTED.THREAD	287,872,296	85	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	20	17	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	260	17	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	16	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	16	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	525	16	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	5,280	16	0	False
+    INST_RETIRED.ANY	314,000,471	157	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	151,144,980	27	0	False
+    MEM_LOAD_RETIRED.L1_MISS	1,347,085	11	0	False
+    MEM_LOAD_RETIRED.L2_HIT	1,086,680	11	0	False
+    MEM_LOAD_RETIRED.L2_MISS	262,395	11	0	False
+    MEM_LOAD_RETIRED.L3_HIT	174,755	11	0	False
+    MEM_LOAD_RETIRED.L3_MISS	106,215	14	0	False
+    UOPS_EXECUTED.THREAD	703,277,090	27	0	False
+    UOPS_EXECUTED.X87	82,125	27	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	550,000,825	55	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt2.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	12.1 MB 
+    Collection start time:	11:14:36 03/04/2026 UTC
+    Collection stop time:	11:14:36 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt3:
+Elapsed Time:	0.057s
+    CPU Time:	0.052s
+    CPI Rate:	0.692
+    Total Thread Count:	2
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	92,585	8	0	False
+    CPU_CLK_UNHALTED.REF_TSC	136,000,204	68	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	740,760	8	0	False
+    CPU_CLK_UNHALTED.THREAD	232,489,489	68	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	40	8	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	10	8	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	15	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	15	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	260	15	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	355	15	0	False
+    INST_RETIRED.ANY	336,000,504	168	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	40,316,410	10	0	False
+    MEM_LOAD_RETIRED.L1_MISS	3,118,905	22	0	False
+    MEM_LOAD_RETIRED.L2_HIT	2,700,010	22	0	False
+    MEM_LOAD_RETIRED.L2_MISS	421,215	22	0	False
+    MEM_LOAD_RETIRED.L3_HIT	256,280	22	0	False
+    MEM_LOAD_RETIRED.L3_MISS	50,995	13	0	False
+    UOPS_EXECUTED.THREAD	232,063,455	10	0	False
+    UOPS_EXECUTED.X87	174,360	10	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	240,000,360	24	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt3.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	11.8 MB 
+    Collection start time:	11:15:06 03/04/2026 UTC
+    Collection stop time:	11:15:06 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
+opt4:
+Elapsed Time:	0.082s
+    CPU Time:	0.070s
+    CPI Rate:	0.941
+    Total Thread Count:	1
+    Paused Time:	0s
+Hardware Events
+    Hardware Event Type	Hardware Event Count	Hardware Event Sample Count	Events Per Sample	Precise
+    CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE	574,415	17	0	False
+    CPU_CLK_UNHALTED.REF_TSC	182,000,273	91	2000003	False
+    CPU_CLK_UNHALTED.REF_XCLK	1,574,055	17	0	False
+    CPU_CLK_UNHALTED.THREAD	299,325,710	91	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE	0	17	0	False
+    FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE	0	17	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE	0	24	0	False
+    FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE	0	24	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_DOUBLE	680	24	0	False
+    FP_ARITH_INST_RETIRED.SCALAR_SINGLE	48,980	24	0	False
+    INST_RETIRED.ANY	318,000,477	159	2000003	False
+    MEM_LOAD_RETIRED.L1_HIT	54,701,750	19	0	False
+    MEM_LOAD_RETIRED.L1_MISS	537,365	7	0	False
+    MEM_LOAD_RETIRED.L2_HIT	314,910	7	0	False
+    MEM_LOAD_RETIRED.L2_MISS	223,540	7	0	False
+    MEM_LOAD_RETIRED.L3_HIT	135,040	7	0	False
+    MEM_LOAD_RETIRED.L3_MISS	203,960	24	0	False
+    UOPS_EXECUTED.THREAD	353,359,760	19	0	False
+    UOPS_EXECUTED.X87	232,495	19	0	False
+    UOPS_RETIRED.RETIRE_SLOTS	360,000,540	36	2000003	False
+Collection and Platform Info
+    Application Command Line:	E:\upload\para\lab0\code\matrix\opt4.exe 
+    Operating System:	Microsoft Windows 10
+    Computer Name:	Odalys
+    Result Size:	12.1 MB 
+    Collection start time:	11:15:35 03/04/2026 UTC
+    Collection stop time:	11:15:35 03/04/2026 UTC
+    Collector Type:	Event-based sampling driver
+    Finalization mode: Fast. If the number of collected samples exceeds the threshold, this mode limits the number of processed samples to speed up post-processing.
+    CPU
+        Name:	Intel(R) microarchitecture code named Cometlake H/S
+        Frequency:	2.6 GHz
+        Logical CPU Count:	12
+        Cache Allocation Technology
+            Level 2 capability:	not detected
+            Level 3 capability:	not detected
